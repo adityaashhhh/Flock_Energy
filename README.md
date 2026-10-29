@@ -41,7 +41,7 @@ python src/download.py     # downloads + extracts only the files used (skips if 
 python src/s1_clean_raw.py # Section 1  (~1 min)
 python src/s2_wm_eda.py    # Section 2  (~1 min)
 python src/check_clock.py  # cross-check vs official House 1 + clock-offset test (~1 min)
-python src/s3_model.py     # Section 3  (~20-30 min on 2 CPU cores: 6 model fits)
+python src/s3_model.py     # Section 3  (~15-30 min on 2 CPU cores: 5 model fits)
 ```
 
 **Output locations**
