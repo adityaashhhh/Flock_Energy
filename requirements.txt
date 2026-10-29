@@ -1,0 +1,8 @@
+# Exact versions used to produce the results in this repo (run with Python 3.13; needs Python >= 3.12)
+pandas==3.0.5
+numpy==2.5.3
+matplotlib==3.11.2
+lightgbm==4.7.0
+pyarrow==26.0.0
+py7zr==1.1.4
+scikit-learn==1.9.1

@@ -1,0 +1,126 @@
+{
+  "Part1": {
+    "file": "RAW_House1_Part1.csv",
+    "rows": 4377877,
+    "first": "2013-10-09 14:06:17",
+    "last": "2014-10-01 01:27:07",
+    "time_text_unparseable": 0,
+    "time_text_minus_unix_seconds": [
+      0,
+      1
+    ],
+    "rows_out_of_order (time goes backwards)": 1,
+    "largest_backward_jump_s": 3597,
+    "rows_sharing_a_timestamp": 1833597,
+    "exact_duplicate_rows (extra copies)": 884307,
+    "same_timestamp_different_values_rows": 210762,
+    "sampling_interval_s_quantiles": {
+      "p1": 0.0,
+      "p25": 1.0,
+      "p50": 3.0,
+      "p75": 13.0,
+      "p99": 15.0
+    },
+    "longest_silence_hours": 998.4,
+    "missing_NaN_per_channel": {
+      "Aggregate": 0,
+      "Fridge": 0,
+      "Freezer1": 0,
+      "Freezer2": 0,
+      "WasherDryer": 0,
+      "WashingMachine": 0,
+      "Dishwasher": 0,
+      "Computer": 0,
+      "TV": 0,
+      "ElectricHeater": 0
+    },
+    "zero_aggregate_rows": 12,
+    "negative_values": 0,
+    "max_per_channel_W": {
+      "Aggregate": 24000.0,
+      "Fridge": 69629.0,
+      "Freezer1": 98301.0,
+      "Freezer2": 32751.0,
+      "WasherDryer": 98301.0,
+      "WashingMachine": 32767.0,
+      "Dishwasher": 14336.0,
+      "Computer": 98299.0,
+      "TV": 65549.0,
+      "ElectricHeater": 65535.0
+    },
+    "aggregate_above_limit_rows": 26,
+    "appliance_above_limit_rows": {
+      "Fridge": 662,
+      "Freezer1": 18,
+      "Freezer2": 38,
+      "WasherDryer": 2014,
+      "WashingMachine": 156,
+      "Dishwasher": 24,
+      "Computer": 3,
+      "TV": 88,
+      "ElectricHeater": 35
+    }
+  },
+  "Part2": {
+    "file": "RAW_House1_Part2.csv",
+    "rows": 4140886,
+    "first": "2014-06-27 21:57:49",
+    "last": "2015-07-10 11:56:32",
+    "time_text_unparseable": 0,
+    "time_text_minus_unix_seconds": [
+      0,
+      1
+    ],
+    "rows_out_of_order (time goes backwards)": 0,
+    "largest_backward_jump_s": 0,
+    "rows_sharing_a_timestamp": 29510,
+    "exact_duplicate_rows (extra copies)": 393,
+    "same_timestamp_different_values_rows": 28724,
+    "sampling_interval_s_quantiles": {
+      "p1": 5.0,
+      "p25": 6.0,
+      "p50": 7.0,
+      "p75": 8.0,
+      "p99": 9.0
+    },
+    "longest_silence_hours": 207.6,
+    "missing_NaN_per_channel": {
+      "Aggregate": 188973,
+      "Fridge": 437890,
+      "Freezer1": 459468,
+      "Freezer2": 311961,
+      "WasherDryer": 510963,
+      "WashingMachine": 497223,
+      "Dishwasher": 342337,
+      "Computer": 232752,
+      "TV": 390705,
+      "ElectricHeater": 1911811
+    },
+    "zero_aggregate_rows": 0,
+    "negative_values": 0,
+    "max_per_channel_W": {
+      "Aggregate": 29159.0,
+      "Fridge": 76677.0,
+      "Freezer1": 66685.0,
+      "Freezer2": 73725.0,
+      "WasherDryer": 98301.0,
+      "WashingMachine": 73725.0,
+      "Dishwasher": 37610.0,
+      "Computer": 73725.0,
+      "TV": 98301.0,
+      "ElectricHeater": 32737.0
+    },
+    "aggregate_above_limit_rows": 51,
+    "appliance_above_limit_rows": {
+      "Fridge": 184,
+      "Freezer1": 22,
+      "Freezer2": 80,
+      "WasherDryer": 71,
+      "WashingMachine": 65,
+      "Dishwasher": 12,
+      "Computer": 371,
+      "TV": 91,
+      "ElectricHeater": 15
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "rows_dropped_ambiguous_DST_hour": 2185,
+  "part1_zero_aggregate_set_missing": 12,
+  "part1_rows_dropped_in_overlap": 1257865,
+  "aggregate_values_removed": 69,
+  "appliance_values_removed": {
+    "Fridge": 799,
+    "Freezer1": 40,
+    "Freezer2": 118,
+    "WasherDryer": 1226,
+    "WashingMachine": 70,
+    "Dishwasher": 36,
+    "Computer": 374,
+    "TV": 176,
+    "ElectricHeater": 50
+  },
+  "rows_before_dedup": 7258713,
+  "rows_after_dedup": 6662139,
+  "frozen_episodes": 18,
+  "frozen_hours_set_missing": 62.0,
+  "minutes_in_period": 920031,
+  "minutes_without_any_reading_per_channel": {
+    "Aggregate": 123304,
+    "Fridge": 127312,
+    "Freezer1": 126921,
+    "Freezer2": 124765,
+    "WasherDryer": 136036,
+    "WashingMachine": 133269,
+    "Dishwasher": 123391,
+    "Computer": 123323,
+    "TV": 125511,
+    "ElectricHeater": 339241
+  },
+  "minutes_filled_per_channel": {
+    "Aggregate": 4423,
+    "Fridge": 7511,
+    "Freezer1": 7213,
+    "Freezer2": 4496,
+    "WasherDryer": 9170,
+    "WashingMachine": 9224,
+    "Dishwasher": 4510,
+    "Computer": 4441,
+    "TV": 5973,
+    "ElectricHeater": 5099
+  },
+  "long_outages_aggregate": {
+    "count": 74,
+    "total_minutes": 118881,
+    "share_of_period_pct": 12.92,
+    "longest_days": 41.6
+  },
+  "minutes_sub_meter_sum_gt_aggregate": 6927
+}

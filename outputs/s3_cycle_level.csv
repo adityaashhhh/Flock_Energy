@@ -1,0 +1,3 @@
+house,true_cycles,predicted_cycles,true_cycles_found_pct,predicted_cycles_that_are_real_pct,false_cycles_per_week,true_median_energy_wh,pred_median_energy_wh_of_found
+2,332,469,53.6,39.4,4.36,556,177
+15,265,176,61.5,92.0,0.2,428,196

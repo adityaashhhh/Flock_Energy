@@ -1,0 +1,3 @@
+data,wm_energy_in_weekday_16_19_pct (pooled),cycles_starting_in_weekday_16_19_pct (pooled),cycles
+all data,10.2,10.6,3931
+without summer 2015,10.8,11.2,3366
